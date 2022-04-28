@@ -1,0 +1,32 @@
+
+
+.navbar__search:hover {
+    width: 60%;
+}
+
+@media (min-width: 650px) {
+    .icons .openSearch {
+        display: none;
+    }
+}
+
+@media (max-width: 649px) {
+    .navbar .navbar__search {
+        width: 75%;
+        right: 5px;
+        position: absolute;
+        top: -100%;
+        z-index: 2000;
+    }
+    .navbar .navbar__search.visibleSearch {
+        top: 42px;
+    }
+    .navbar .navbar__search .btn {
+        display: none;
+    }
+}
+@media (max-width: 315px) {
+    .navbar .navbar__search.visibleSearch {
+        top: 66px;
+    }
+}

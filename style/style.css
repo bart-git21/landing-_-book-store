@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url("blocks/_variables.css");
+@import url("blocks/backtotop.css");
+@import url("blocks/buttons.css");
+@import url("blocks/deal.css");
+@import url("blocks/footer.css");
+@import url("blocks/header.css");
+@import url("blocks/icons.css");
+@import url("blocks/iconsContainer.css");
+@import url("blocks/loader.css");
+@import url("blocks/loginForm.css");
+@import url("blocks/search.css");
+@import url("blocks/section__.css");
+@import url("blocks/sectionArrivals.css");
+@import url("blocks/sectionBlogs.css");
+@import url("blocks/sectionFeatured.css");
+@import url("blocks/sectionFooter.css");
+@import url("blocks/sectionHome.css");
+@import url("blocks/sectionReview.css");
+@import url("blocks/sectionNewsletter.css");
+@import url("blocks/swiper.css");
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+}
+
+
+html {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+main {
+    position: relative;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+    background: var(--bs-gray-dark);
+}
+
+.btn-secondary:hover .fa-magnifying-glass {
+    color: var(--bs-primary);
+}
+
+

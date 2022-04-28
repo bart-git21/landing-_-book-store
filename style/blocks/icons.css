@@ -1,0 +1,23 @@
+
+a .fa,
+a .fa-solid,
+.icons .fa,
+.icons .fa-solid {
+    color: var(--bs-gray-dark);
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+a .fa:hover,
+a .fa-solid:hover,
+a .fa-brands:hover,
+.icons .fa:hover,
+.icons .fa-solid:hover {
+    color: var(--bs-primary);
+    cursor: pointer;
+}
+
+a .green {
+    color: var(--bs-primary);
+}
+
+

@@ -1,0 +1,7 @@
+
+.btn {
+    margin-left: 10px;
+}
+.btn:hover {
+    background: var(--bs-gray-dark);
+}
