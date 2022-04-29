@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
-@import url("blocks/_variables.css");
+@import url("blocks/variables.css");
 @import url("blocks/backtotop.css");
 @import url("blocks/buttons.css");
-@import url("blocks/deal.css");
 @import url("blocks/footer.css");
 @import url("blocks/header.css");
 @import url("blocks/icons.css");
